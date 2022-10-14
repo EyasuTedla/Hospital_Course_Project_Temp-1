@@ -1,0 +1,11 @@
+C:\Users\Abel\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\bin\Debug\Hosp_Temp.exe.config
+C:\Users\Abel\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\bin\Debug\Hosp_Temp.exe
+C:\Users\Abel\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\bin\Debug\Hosp_Temp.pdb
+C:\Users\Abel\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\obj\Debug\Hosp_Temp.csproj.AssemblyReference.cache
+C:\Users\Abel\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\obj\Debug\Hosp_Temp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Abel\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\obj\Debug\Hosp_Temp.Login.resources
+C:\Users\Abel\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\obj\Debug\Hosp_Temp.Properties.Resources.resources
+C:\Users\Abel\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\obj\Debug\Hosp_Temp.csproj.GenerateResource.cache
+C:\Users\Abel\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\obj\Debug\Hosp_Temp.csproj.CoreCompileInputs.cache
+C:\Users\Abel\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\obj\Debug\Hosp_Temp.exe
+C:\Users\Abel\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\obj\Debug\Hosp_Temp.pdb
