@@ -33,8 +33,8 @@
             this.addPatientToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.checkStatusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewPatientInfoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.medicalDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editPatientInfoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.medicalDataToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.issuePrescriptionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.issueMedicalCertificateToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.accountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,7 +53,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(744, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1173, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -65,26 +65,33 @@
             this.viewPatientInfoToolStripMenuItem,
             this.editPatientInfoToolStripMenuItem});
             this.patientToolStripMenuItem.Name = "patientToolStripMenuItem";
-            this.patientToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.patientToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
             this.patientToolStripMenuItem.Text = "Patient";
             // 
             // addPatientToolStripMenuItem
             // 
             this.addPatientToolStripMenuItem.Name = "addPatientToolStripMenuItem";
-            this.addPatientToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.addPatientToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.addPatientToolStripMenuItem.Text = "Add Patient";
+            this.addPatientToolStripMenuItem.Click += new System.EventHandler(this.addPatientToolStripMenuItem_Click);
             // 
             // checkStatusToolStripMenuItem
             // 
             this.checkStatusToolStripMenuItem.Name = "checkStatusToolStripMenuItem";
-            this.checkStatusToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.checkStatusToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.checkStatusToolStripMenuItem.Text = "Check Status";
             // 
             // viewPatientInfoToolStripMenuItem
             // 
             this.viewPatientInfoToolStripMenuItem.Name = "viewPatientInfoToolStripMenuItem";
-            this.viewPatientInfoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.viewPatientInfoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.viewPatientInfoToolStripMenuItem.Text = "View Patient Info";
+            // 
+            // editPatientInfoToolStripMenuItem
+            // 
+            this.editPatientInfoToolStripMenuItem.Name = "editPatientInfoToolStripMenuItem";
+            this.editPatientInfoToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.editPatientInfoToolStripMenuItem.Text = "Edit Patient Info";
             // 
             // medicalDataToolStripMenuItem
             // 
@@ -92,25 +99,19 @@
             this.issuePrescriptionToolStripMenuItem,
             this.issueMedicalCertificateToolStripMenuItem});
             this.medicalDataToolStripMenuItem.Name = "medicalDataToolStripMenuItem";
-            this.medicalDataToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
+            this.medicalDataToolStripMenuItem.Size = new System.Drawing.Size(112, 24);
             this.medicalDataToolStripMenuItem.Text = "Medical Data";
-            // 
-            // editPatientInfoToolStripMenuItem
-            // 
-            this.editPatientInfoToolStripMenuItem.Name = "editPatientInfoToolStripMenuItem";
-            this.editPatientInfoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.editPatientInfoToolStripMenuItem.Text = "Edit Patient Info";
             // 
             // issuePrescriptionToolStripMenuItem
             // 
             this.issuePrescriptionToolStripMenuItem.Name = "issuePrescriptionToolStripMenuItem";
-            this.issuePrescriptionToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.issuePrescriptionToolStripMenuItem.Size = new System.Drawing.Size(253, 26);
             this.issuePrescriptionToolStripMenuItem.Text = "Issue Prescription";
             // 
             // issueMedicalCertificateToolStripMenuItem
             // 
             this.issueMedicalCertificateToolStripMenuItem.Name = "issueMedicalCertificateToolStripMenuItem";
-            this.issueMedicalCertificateToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.issueMedicalCertificateToolStripMenuItem.Size = new System.Drawing.Size(253, 26);
             this.issueMedicalCertificateToolStripMenuItem.Text = "Issue Medical Certificate";
             // 
             // accountToolStripMenuItem
@@ -119,31 +120,31 @@
             this.logOutToolStripMenuItem,
             this.signedInAsToolStripMenuItem});
             this.accountToolStripMenuItem.Name = "accountToolStripMenuItem";
-            this.accountToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
+            this.accountToolStripMenuItem.Size = new System.Drawing.Size(77, 24);
             this.accountToolStripMenuItem.Text = "Account";
             // 
             // logOutToolStripMenuItem
             // 
             this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
-            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(172, 26);
             this.logOutToolStripMenuItem.Text = "Log Out";
             this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
             // 
             // signedInAsToolStripMenuItem
             // 
             this.signedInAsToolStripMenuItem.Name = "signedInAsToolStripMenuItem";
-            this.signedInAsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.signedInAsToolStripMenuItem.Size = new System.Drawing.Size(172, 26);
             this.signedInAsToolStripMenuItem.Text = "Signed in as";
             // 
             // DocMDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(744, 561);
+            this.ClientSize = new System.Drawing.Size(1173, 678);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "DocMDI";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DocMDI";

@@ -24,3 +24,8 @@ C:\Users\Jake\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\
 C:\Users\Jake\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\obj\Debug\Hosp_Temp.exe
 C:\Users\Jake\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\obj\Debug\Hosp_Temp.pdb
 C:\Users\Jake\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\obj\Debug\Hosp_Temp.AddEmployee.resources
+C:\Users\Abel\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\obj\Debug\Hosp_Temp.AddEmployee.resources
+C:\Users\Abel\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\obj\Debug\Hosp_Temp.AddPatient.resources
+C:\Users\Abel\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\obj\Debug\Hosp_Temp.AdminMDI.resources
+C:\Users\Abel\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\obj\Debug\Hosp_Temp.DocMDI.resources
+C:\Users\Abel\Documents\GitHub\Hospital_Course_Project_Temp\Hosp_Temp\Hosp_Temp\obj\Debug\Hosp_Temp.NurseMDI.resources

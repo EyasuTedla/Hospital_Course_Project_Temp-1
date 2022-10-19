@@ -32,5 +32,10 @@ namespace Hosp_Temp
             Hide();
             loginForm.Show();
         }
+
+        private void addPatientToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

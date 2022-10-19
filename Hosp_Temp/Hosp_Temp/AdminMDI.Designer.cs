@@ -59,7 +59,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(744, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1111, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -71,32 +71,32 @@
             this.searchForAnEmployeeToolStripMenuItem,
             this.deleteEmployeeRecordToolStripMenuItem});
             this.employeeManagementToolStripMenuItem.Name = "employeeManagementToolStripMenuItem";
-            this.employeeManagementToolStripMenuItem.Size = new System.Drawing.Size(145, 20);
+            this.employeeManagementToolStripMenuItem.Size = new System.Drawing.Size(181, 24);
             this.employeeManagementToolStripMenuItem.Text = "Employee Management";
             // 
             // addEmployeeToolStripMenuItem
             // 
             this.addEmployeeToolStripMenuItem.Name = "addEmployeeToolStripMenuItem";
-            this.addEmployeeToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.addEmployeeToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
             this.addEmployeeToolStripMenuItem.Text = "Add Employee";
             this.addEmployeeToolStripMenuItem.Click += new System.EventHandler(this.addEmployeeToolStripMenuItem_Click);
             // 
             // editEmployeeInfoToolStripMenuItem
             // 
             this.editEmployeeInfoToolStripMenuItem.Name = "editEmployeeInfoToolStripMenuItem";
-            this.editEmployeeInfoToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.editEmployeeInfoToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
             this.editEmployeeInfoToolStripMenuItem.Text = "Edit Employee Info";
             // 
             // searchForAnEmployeeToolStripMenuItem
             // 
             this.searchForAnEmployeeToolStripMenuItem.Name = "searchForAnEmployeeToolStripMenuItem";
-            this.searchForAnEmployeeToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.searchForAnEmployeeToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
             this.searchForAnEmployeeToolStripMenuItem.Text = "Search for an Employee";
             // 
             // deleteEmployeeRecordToolStripMenuItem
             // 
             this.deleteEmployeeRecordToolStripMenuItem.Name = "deleteEmployeeRecordToolStripMenuItem";
-            this.deleteEmployeeRecordToolStripMenuItem.Size = new System.Drawing.Size(202, 22);
+            this.deleteEmployeeRecordToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
             this.deleteEmployeeRecordToolStripMenuItem.Text = "Delete Employee Record";
             // 
             // ruleManagementToolStripMenuItem
@@ -105,19 +105,19 @@
             this.updateRatingRuleToolStripMenuItem,
             this.updateSalaryRuleToolStripMenuItem});
             this.ruleManagementToolStripMenuItem.Name = "ruleManagementToolStripMenuItem";
-            this.ruleManagementToolStripMenuItem.Size = new System.Drawing.Size(161, 20);
+            this.ruleManagementToolStripMenuItem.Size = new System.Drawing.Size(198, 24);
             this.ruleManagementToolStripMenuItem.Text = "Performance Management";
             // 
             // updateRatingRuleToolStripMenuItem
             // 
             this.updateRatingRuleToolStripMenuItem.Name = "updateRatingRuleToolStripMenuItem";
-            this.updateRatingRuleToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.updateRatingRuleToolStripMenuItem.Size = new System.Drawing.Size(258, 26);
             this.updateRatingRuleToolStripMenuItem.Text = "Update Employee Rating";
             // 
             // updateSalaryRuleToolStripMenuItem
             // 
             this.updateSalaryRuleToolStripMenuItem.Name = "updateSalaryRuleToolStripMenuItem";
-            this.updateSalaryRuleToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.updateSalaryRuleToolStripMenuItem.Size = new System.Drawing.Size(258, 26);
             this.updateSalaryRuleToolStripMenuItem.Text = "Update Employee Salary";
             // 
             // toolsToolStripMenuItem
@@ -127,19 +127,19 @@
             this.patientStatisticsToolStripMenuItem,
             this.viewToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(58, 24);
             this.toolsToolStripMenuItem.Text = "Tools";
             // 
             // employeeStatisticsToolStripMenuItem
             // 
             this.employeeStatisticsToolStripMenuItem.Name = "employeeStatisticsToolStripMenuItem";
-            this.employeeStatisticsToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.employeeStatisticsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.employeeStatisticsToolStripMenuItem.Text = "Employee Statistics";
             // 
             // patientStatisticsToolStripMenuItem
             // 
             this.patientStatisticsToolStripMenuItem.Name = "patientStatisticsToolStripMenuItem";
-            this.patientStatisticsToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.patientStatisticsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.patientStatisticsToolStripMenuItem.Text = "Patient Statistics";
             // 
             // viewToolStripMenuItem
@@ -147,13 +147,13 @@
             this.viewToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.employeeCardToolStripMenuItem});
             this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
-            this.viewToolStripMenuItem.Size = new System.Drawing.Size(175, 22);
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.viewToolStripMenuItem.Text = "View";
             // 
             // employeeCardToolStripMenuItem
             // 
             this.employeeCardToolStripMenuItem.Name = "employeeCardToolStripMenuItem";
-            this.employeeCardToolStripMenuItem.Size = new System.Drawing.Size(154, 22);
+            this.employeeCardToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.employeeCardToolStripMenuItem.Text = "Employee Card";
             // 
             // accountToolStripMenuItem
@@ -162,27 +162,27 @@
             this.logOutToolStripMenuItem,
             this.loggedInAsToolStripMenuItem});
             this.accountToolStripMenuItem.Name = "accountToolStripMenuItem";
-            this.accountToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
+            this.accountToolStripMenuItem.Size = new System.Drawing.Size(77, 24);
             this.accountToolStripMenuItem.Text = "Account";
             // 
             // logOutToolStripMenuItem
             // 
             this.logOutToolStripMenuItem.Name = "logOutToolStripMenuItem";
-            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.logOutToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.logOutToolStripMenuItem.Text = "Log out";
             this.logOutToolStripMenuItem.Click += new System.EventHandler(this.logOutToolStripMenuItem_Click);
             // 
             // loggedInAsToolStripMenuItem
             // 
             this.loggedInAsToolStripMenuItem.Name = "loggedInAsToolStripMenuItem";
-            this.loggedInAsToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
+            this.loggedInAsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.loggedInAsToolStripMenuItem.Text = "Logged in as";
             // 
             // AdminMDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(744, 561);
+            this.ClientSize = new System.Drawing.Size(1111, 587);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;

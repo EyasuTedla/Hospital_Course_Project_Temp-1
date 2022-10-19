@@ -31,5 +31,19 @@ namespace Hosp_Temp
             Hide();
             loginForm.Show();
         }
+
+        private void addPatientToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            var form = ActiveMdiChild;
+            if(form != null)
+            {
+                form.Close();
+            }
+
+            AddPatient patientForm = new AddPatient();
+            patientForm.MdiParent = this;
+            patientForm.Show();
+        }
     }
 }
