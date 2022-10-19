@@ -12,9 +12,25 @@ namespace Hosp_Temp
 {
     public partial class NurseMDI : Form
     {
-        public NurseMDI()
+        private string logged_in_as;
+        Form loginForm;
+
+        public NurseMDI(string logged_in_as, Form loginForm)
         {
             InitializeComponent();
+            this.logged_in_as = logged_in_as;
+            this.loginForm = loginForm;
+        }
+
+        private void NurseMDI_Load(object sender, EventArgs e)
+        {
+            signedInAsToolStripMenuItem.Text = "Signed in as " + logged_in_as;
+        }
+
+        private void logOutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hide();
+            loginForm.Show();
         }
     }
 }
